@@ -12,7 +12,7 @@ public class Arithmetic_Exception {
 	    {
 	    	System.out.println(e.getMessage());
 	    }
-	    System.out.println("Process");
+	    System.out.println("Program in Process");
 	    System.out.println("Program End");
 		}
 	}
