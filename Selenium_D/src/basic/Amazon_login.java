@@ -7,10 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Amazon_login {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException 
+	{
     WebDriver driver = new ChromeDriver ();
     driver.get("https://www.amazon.in/");
     driver.manage().window().maximize();
+   
     By by_search= By.xpath("//input[@type=\"text\"]");
     WebElement ele_search=driver.findElement(by_search);
     ele_search.sendKeys("mobile");
