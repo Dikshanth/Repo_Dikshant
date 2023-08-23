@@ -14,6 +14,7 @@ public class Actitime_Main_Class extends Actitime_Base_Class
       Actitme_Login_page.username();
       Actitme_Login_page.password();
       Actitme_Login_page.login_Button();
+      Actii_homepage.username();
 	}
 
 }
