@@ -29,9 +29,12 @@ public class Hyr_tutorial {
 		    	{
 		    		driver.switchTo().window(windowhandle);
 		    		System.out.println(windowhandle+driver.getTitle());
+		    		driver.close();
 		    	}
 		    }
-		  
+		    driver.switchTo().window(parentwindowhandle);
+		    driver.findElement(By.xpath("//input[@class=\"whTextBox\"]")).sendKeys("dmg");
+		    Thread.sleep(2000);
 		    
 		   
 		   
